@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import LeftNavbar from "@/components/navigation/LeftNavbar";
 import Background from "@/components/Background";
+import AnotherLeftNavbar from "@/components/navigation/AnotherLeftNavbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <div className="flex flex-row">
           <LeftNavbar />
+          <AnotherLeftNavbar />
           {children}
         </div>
         <Background />
