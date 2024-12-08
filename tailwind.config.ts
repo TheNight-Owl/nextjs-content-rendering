@@ -14,6 +14,7 @@ export default {
       },
       backgroundImage: {
         waves: "url('/images/waves.svg')",
+        "vertical-waves": "url('/images/seamlessWaves.svg')",
       },
     },
   },
